@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>DEVSITEX</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/devsitex-website-favicon---white.png" type="image/x-icon">
+
 </head>
 <body>
     <main>
-        <nav>
+        <nav id="navbar">
             <div class="logo">
                 <img src="img/devsitex-high-resolution-logo-color-on-transparent-background.png" alt="">
             </div>
@@ -23,15 +25,14 @@
                     </li>
             </div>
            <a href="#contact">
-            <button class="nav-btn">¡Contactar Ahora!</button>
-
-            <img class="menu-icon" src="img/menu.png" alt="">
+            <button class="nav-btn">¡Contactar Ahora!</button>           
            </a>
+           <img class="menu-icon" src="img/menu.png" alt="">
         </nav>
 
         <section class="menu-responsive">
             <div class="close-icon--cont">
-                <img src="img/close-menu.png" alt="">
+                <img src="img/close-menu.png" id="close-menu-icon">
             </div>
             <li>
                 <a href="#home">
@@ -45,6 +46,7 @@
             </li>
         </section>
         <section class="home" id="home">
+            <!-- <div class="blur-effect"></div> -->
             <div class="info--home">
                 <h1>DevSitex</h1>
                 <p class="description--home">
@@ -155,10 +157,12 @@
         </section>
         <section class="contact-section" id="contact">
                 <h3>Contactar ahora</h3>
-                <p>¡Estamos encantados de que hayas visitado nuestra página! Si deseas ponerte en contacto con nosotros de manera rápida y sencilla, no dudes en hacerlo a través de WhatsApp. Estamos aquí para ayudarte en lo que necesites. ¡Esperamos tu mensaje!</p>
+                <p>¡Estoy encantado de que hayas visitado DEVSITEX! Si deseas ponerte en contacto de manera rápida y sencilla, no dudes en hacerlo a través de WhatsApp. para ayudarte en lo que necesites. ¡Esperamos tu mensaje!</p>
                 <button id="whatsappButton"><img src="img/whatsapp.png" alt="" srcset="">Contactar Ya!</button>
         </section>
     </main>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
     <script src="app.js"></script>
 </body>
 </html>
